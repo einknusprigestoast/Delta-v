@@ -343,3 +343,23 @@
   equipment:
     outerClothing: ClothingOuterHardsuitERTJanitorElite
     pocket1: WeaponEnergyGunPistol
+
+# SRT
+
+- type: startingGear
+  id: SRTOfficer
+  equipment: 
+   jumpsuit: ClothingUniformJumpsuitDeathSquad
+   back: ClothingBackpackDeathSquad
+   shoes: ClothingShoesBootsERTMagboots
+   head: ClothingHeadHatBeretCommand
+   eyes: ClothingEyesERTInformationHud
+   gloves: ClothingHandsGlovesCombat
+   mask: ClothingMaskGasDeathSquad
+   outerClothing: ClothingOuterHardsuitSRT
+   id: DeathsquadPDA
+   ears: ClothingHeadsetAltCentCom
+   belt: ClothingBeltMilitaryWebbingERT
+   pocket1: DoubleEmergencyOxygenTankFilled
+   pocket2: WeaponRevolverMateba
+  inhand: JetpackBlackFilled
