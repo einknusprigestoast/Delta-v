@@ -347,19 +347,31 @@
 # SRT
 
 - type: startingGear
-  id: SRTOfficer
+  id: SRTOfficerBase
   equipment: 
-   jumpsuit: ClothingUniformJumpsuitDeathSquad
-   back: ClothingBackpackDeathSquad
-   shoes: ClothingShoesBootsERTMagboots
-   head: ClothingHeadHatBeretCommand
-   eyes: ClothingEyesERTInformationHud
-   gloves: ClothingHandsGlovesCombat
-   mask: ClothingMaskGasDeathSquad
-   outerClothing: ClothingOuterHardsuitSRT
-   id: DeathsquadPDA
-   ears: ClothingHeadsetAltCentCom
-   belt: ClothingBeltMilitaryWebbingERT
-   pocket1: DoubleEmergencyOxygenTankFilled
-   pocket2: WeaponRevolverMateba
-  inhand: JetpackBlackFilled
+    jumpsuit: ClothingUniformJumpsuitDeathSquad
+    back: ClothingBackpackDeathSquadFilledBase
+    shoes: ClothingShoesBootsERTMagboots
+    head: ClothingHeadHatBeretCommand
+    eyes: ClothingEyesERTInformationHud
+    gloves: ClothingHandsGlovesCombat
+    mask: ClothingMaskGasDeathSquad
+    outerClothing: ClothingOuterHardsuitSRT
+    suitstorage: JetpackBlackFilled
+    id: DeathsquadPDA
+    ears: ClothingHeadsetAltCentCom
+    belt: ClothingBeltMilitaryWebbingERTMedicine
+    pocket1: DoubleEmergencyOxygenTankFilled
+    pocket2: WeaponRevolverMateba
+
+- type: startingGear
+  id: SRTOfficerBlack
+  parent: SRTOfficerBase
+  equipment: 
+    back: ClothingBackpackDeathSquadFilledBlack
+
+- type: startingGear
+  id: SRTOfficerEpsilon
+  parent: SRTOfficerBase
+  equipment: 
+    back: ClothingBackpackDeathSquadFilledEpsilon
