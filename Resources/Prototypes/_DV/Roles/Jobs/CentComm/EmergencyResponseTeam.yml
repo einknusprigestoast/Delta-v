@@ -375,10 +375,10 @@
   id: SRTOfficerHeavy
   parent: SRTOfficerBase
   equipment:
+    belt:  ClothingBeltMilitaryWebbingERTMedicineHeavy
     back:  ClothingBackpackPlasmaBattery
   inhand:
   - WeaponPlasmaBackpack
-
 
 - type: job
   id: SRTAgent
